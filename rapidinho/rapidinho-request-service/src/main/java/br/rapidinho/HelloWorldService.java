@@ -17,7 +17,7 @@ public class HelloWorldService {
 	public Response getMsg(@PathParam("param") String msg) {
 
 		String output = "Nova encomenda : " + msg;
-
+		System.out.println("Nova encomenda : " + msg);
 		return Response.status(200).entity(output).build();
 
 	}
@@ -26,6 +26,7 @@ public class HelloWorldService {
 	@Path("/{param}")
 	public Response postMsg(@PathParam("param") String msg) {
 		String output = "POST:Jersey say : " + msg;
+		System.out.println("POST:Jersey say : " + msg);
 		return Response.status(200).entity(output).build();
 	}
 
