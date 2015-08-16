@@ -5,7 +5,7 @@
   <groupId>br.rapidinho</groupId>
   <artifactId>rapidinho-super-pom</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <packaging>jar</packaging>
+  <packaging>pom</packaging>
 
   <name>rapidinho-super-pom</name>
   <url>http://maven.apache.org</url>
